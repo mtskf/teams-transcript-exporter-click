@@ -93,7 +93,7 @@ if (window.self === window.top) {
       lines.push(`# ${meetingInfo.title}`);
       lines.push('');
       if (meetingInfo.date) {
-        lines.push(`**Date:** ${meetingInfo.date}`);
+        lines.push(`Date: ${meetingInfo.date}`);
         lines.push('');
       }
       lines.push('---');
